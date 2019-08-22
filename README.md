@@ -51,4 +51,28 @@ pug2(...).rep(alive) //replace target the alive, within body only.
   .num.wipe 000
   .ed(contenteditable="plaintext-only" onkeyup="ed(event)") its new
 ```
+### re
+```
+let re={}
+re.dep=/^([ ])./
+re.attr=/\((.*)\)/
+re.tag=
+re.tagcep=/(^\w+)|(\.[-\w]+)|(#[-\w]+)/g
+re.str=
+re.com=^(?:|[ ])+\/\/ and empty
+
+//c ^(?:|[ ])+\/\/ and empty
+//t a s (^[ -\.\w]+\w)\((.*)\)(?: )(.*)
+//t a (^[ -\.\w]+\w)\((.*)\)
+//t s  (^[ -\.\w]+\w)(?: )(.*)
+//t (^[ -\.\w]+\w)
+
+```
+
+
+
+
+
+
+
 
