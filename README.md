@@ -12,6 +12,7 @@ let fr=pug2(`
   .a1
   .a2
   .a3
+//comment is silent.  
  .b
  .c
 .col2
