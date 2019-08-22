@@ -5,7 +5,7 @@ createElement engine, like a pug.
 
 ```
 //pug2
-
+//one line be the one element setting.
 let fr=pug2(`
 .col1
  .a 
