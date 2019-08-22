@@ -20,6 +20,8 @@ let fr=pug2(`
  .f
 `);
 
+//space is back parentElement
+
 pug2(fr).a2('body') //append to body
 
 ```
