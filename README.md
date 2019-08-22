@@ -23,11 +23,15 @@ let fr=pug2(`
 pug2(fr).a2('body') //append to body
 
 ```
+chain
+
+```pug2(...).a2(query)```
+
 ```
 //appends
 pug2(...).a2(parent) //append to
 pug2(...).p2(parent) //prepend to
 pug2(...).as(parent) //append siblings to
 pug2(...).ps(parent) //prepend siblings to
-pug2(...).rep(alive) //replace target the alive Element
+pug2(...).rep(alive) //replace target the alive, within body only.
 ```
