@@ -48,7 +48,7 @@ pug2(...).rep(alive) //replace target the alive, within body only.
   .stt(onclick="stt(event)" data-text="20190821 WIP)
   .clo(onclick="clo(event)" data-text="	-")
  .wrap.editor
-    .num.wipe 000
-    .ed(contenteditable="plaintext-only" onkeyup="ed(event)") its new
+  .num.wipe 000
+  .ed(contenteditable="plaintext-only" onkeyup="ed(event)") its new
 ```
 
