@@ -45,7 +45,7 @@ pug2(...).rep(alive) //replace target the alive, within body only.
 .frame(data-mode="WIP" data-close="false" data-id="###")
  .wrap.bar
   .cap.single(contenteditable="true") captionThis
-  .stt(onclick="stt(event)" data-text="20190821 WIP)
+  .stt(onclick="stt(event)" data-text="20190821 WIP")
   .clo(onclick="clo(event)" data-text="	-")
  .wrap.editor
   .num.wipe 000
